@@ -1,0 +1,62 @@
+2019-09-02 16:21:15,019 INFO de.limago.zeiterfassung.ZeiterfassungApplication [restartedMain] Starting ZeiterfassungApplication on Sonne with PID 19980 (C:\Users\JoachimWagner\Documents\git\zeiterfassung.git\zeiterfassung\target\classes started by JoachimWagner in C:\Users\JoachimWagner\Documents\git\zeiterfassung.git\zeiterfassung)
+2019-09-02 16:21:15,026 INFO de.limago.zeiterfassung.ZeiterfassungApplication [restartedMain] The following profiles are active: production
+2019-09-02 16:21:23,643 INFO de.limago.zeiterfassung.ZeiterfassungApplication [restartedMain] Started ZeiterfassungApplication in 9.066 seconds (JVM running for 9.593)
+2019-09-02 21:14:23,480 INFO de.limago.zeiterfassung.ZeiterfassungApplication [restartedMain] Starting ZeiterfassungApplication on Sonne with PID 17816 (C:\Users\JoachimWagner\Documents\git\zeiterfassung.git\zeiterfassung\target\classes started by JoachimWagner in C:\Users\JoachimWagner\Documents\git\zeiterfassung.git\zeiterfassung)
+2019-09-02 21:14:23,482 INFO de.limago.zeiterfassung.ZeiterfassungApplication [restartedMain] The following profiles are active: production
+2019-09-02 21:14:30,996 INFO de.limago.zeiterfassung.ZeiterfassungApplication [restartedMain] Started ZeiterfassungApplication in 7.973 seconds (JVM running for 8.535)
+2019-09-02 21:17:35,890 INFO de.limago.zeiterfassung.ZeiterfassungApplication [restartedMain] Starting ZeiterfassungApplication on Sonne with PID 12892 (C:\Users\JoachimWagner\Documents\git\zeiterfassung.git\zeiterfassung\target\classes started by JoachimWagner in C:\Users\JoachimWagner\Documents\git\zeiterfassung.git\zeiterfassung)
+2019-09-02 21:17:35,892 INFO de.limago.zeiterfassung.ZeiterfassungApplication [restartedMain] The following profiles are active: production
+2019-09-02 21:17:41,648 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2019-09-02 21:17:45,210 ERROR org.apache.catalina.util.LifecycleBase [restartedMain] Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at de.limago.zeiterfassung.ZeiterfassungApplication.main(ZeiterfassungApplication.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 19 common frames omitted
+2019-09-02 21:17:45,234 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-09-02 22:37:13,485 INFO de.limago.zeiterfassung.ZeiterfassungApplication [restartedMain] Starting ZeiterfassungApplication on Sonne with PID 10012 (C:\Users\JoachimWagner\Documents\git\zeiterfassung.git\zeiterfassung\target\classes started by JoachimWagner in C:\Users\JoachimWagner\Documents\git\zeiterfassung.git\zeiterfassung)
+2019-09-02 22:37:13,487 INFO de.limago.zeiterfassung.ZeiterfassungApplication [restartedMain] The following profiles are active: production
+2019-09-02 22:37:20,454 INFO de.limago.zeiterfassung.ZeiterfassungApplication [restartedMain] Started ZeiterfassungApplication in 7.403 seconds (JVM running for 7.983)
+2019-09-02 23:19:59,969 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m43s274ms274µs800ns).
